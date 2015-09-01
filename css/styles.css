@@ -1,0 +1,190 @@
+/*problem with this is that I am using background images for the icons in the menu bar and not icons so I can's change the color on hover atm*/
+
+html, body {
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  width: 100%;
+  padding: 0;
+  margin:0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: right;
+    padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover {
+  cursor:pointer;
+  text-decoration: underline;
+}
+
+.header li {
+  width: 49px;
+  padding: 22px 0;
+}
+
+.noLink {
+  color: #666;
+  margin-right: -3px;
+}
+
+/*icons in header*/
+
+.face {
+  background: url('../images/face.png') no-repeat;
+  width: 30px;
+  position: relative;
+  top: 14px;
+  right: 11px;
+}
+
+.bell {
+  background: url('../images/bell.png') no-repeat;
+  position: relative;
+  top: 17px;
+  right: 3px;
+}
+
+.apps {
+  background: url('../images/app.png') no-repeat;
+  position: relative;
+  top: 18px;
+  left: 2px;
+}
+
+.pushLeft {
+  margin-right: 10px;
+}
+
+/*footer bar*/
+.right {
+  float: right;
+ 
+}
+.left {
+  float: left;
+}
+
+.left a {
+  margin-left: 20px;
+}
+
+.lessL a {
+  margin-left: 11px;
+}
+
+.right a {  /*privacy text bottom bar*/
+  margin-right: 10px;
+}
+
+.lessR a {
+  margin-right: 11px;
+}
+
+.last a {
+  margin-right: 20px;
+}
+
+/*main content of the page*/
+
+.main {
+  clear: both;
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+
+img {
+  width: 269px;
+  height: 95px;
+  margin-left: 40px;
+}
+
+.mic {
+  clear: both;
+  color: #666;
+  position: relative;
+  top: 32.5px;
+  left: 115px;
+  padding: 5px 5px 0;
+  margin: 2px;
+
+}
+
+.mic:hover {
+  cursor: pointer;
+  color: #444;
+}
+
+.searchBar {
+  font-size: 15px;
+  display: inline-block;
+  width: 570px;
+  height: 29px;
+  border: 1px solid #dcdcdc;
+  text-indent: 10px;
+}
+
+.searchBar:hover {
+  outline: none;
+  border-top: 1px solid #C6C6C6;
+  border-bottom: 1px solid #C6C6C6;
+  border-left: 1px solid #C6C6C6;
+}
+
+.searchBar:focus {
+  outline: none;
+  border: 1px solid #4285F4;
+}
+
+.googleBut {
+  font-size: 10px;
+  color: #444;
+  margin-top: 15px;
+  display: inline;
+  border: 1px solid #dcdcdc;
+  border-color: rgba(0,0,0,0.1);
+  padding: 7px 10px;
+  font-weight: bold;
+  font-size: 11px;
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.googleBut:hover {
+  border: 1px solid #C6C6C6;
+  box-shadow: 0 1px 1px -0.5px #C6C6C6;
+}
+
+.luckyLeft {
+  margin-left: 5px;
+}
+
+.gRight {
+  margin-right: 5px;
+}
+
+
+/*footer*/
+
+.footer {   
+    position: absolute;
+    display:block;
+    bottom: 0;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 20px;
+    width: 100%;
+    min-width: 962px;
+}
